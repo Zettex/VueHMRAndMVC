@@ -1,0 +1,15 @@
+﻿@model VueMVC.Message
+
+<div>
+    <h4>Message details</h4>
+    <hr />
+    <h3>@Model.MessageBody: @Model.Length</h3>
+</div>
+
+<hr />
+
+<div id="app">
+    <h3>{{ vueMessage }}</h3>
+</div>
+
+@Scripts.Render("~/Scripts/bundle/home.js")

@@ -1,0 +1,13 @@
+﻿@model VueMVC.Message
+@{
+    ViewBag.Title = "Home Page";
+}
+<div>
+    <h2>Some text</h2>
+    <br />
+    <br />
+</div>
+
+@{
+    Html.RenderPartial("MessagePartial", Model);
+}
